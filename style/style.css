@@ -53,19 +53,21 @@ header div.flex{
 }
 .img-main{
 
-   
      height: 500px;
      width: auto;
+     display: block;
+     
 }
 .fl-bas-calc{
     flex-basis: calc(100%/3);
+   
 }
 main{
 
     margin-top: 50px;
 }
 
-#mar-bot{
+/* #mar-bot{
 
     margin-bottom: 30px;
-    }
+    } */
