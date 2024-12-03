@@ -13,6 +13,7 @@ align-items: center;
 color: white;
 width: 100%;
 padding-block: 20px;
+margin-bottom: 30px;
 }
 ul{
     /* list-style-type: none; */
@@ -48,9 +49,11 @@ header div.flex{
 .container-80{
     
     width: 80%;
-    margin:0 auto;
+    margin: 0 auto;
 
 }
+
+
 .img-main{
 
      height: 500px;
@@ -59,14 +62,10 @@ header div.flex{
 
 }
 .fl-bas-calc{
-    flex-basis: calc(100%/3);
-   
-}
-main{
+ flex-basis:calc(90%/3);
+ 
 
-    margin-top: 50px;
 }
-
 /* #mar-bot{
 
     margin-bottom: 30px;
@@ -75,11 +74,15 @@ main{
 .icon-svg{
 
     width: 20px;
-
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background-color: white;
+    padding: 10px;  
 }    
 
 .cont-pos{
 
-    
+    position: relative;
 
 }
