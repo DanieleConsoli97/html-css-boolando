@@ -55,8 +55,8 @@ header div.flex{
 
      height: 500px;
      width: auto;
-     display: block;
-     
+    
+
 }
 .fl-bas-calc{
     flex-basis: calc(100%/3);
@@ -71,3 +71,15 @@ main{
 
     margin-bottom: 30px;
     } */
+
+.icon-svg{
+
+    width: 20px;
+
+}    
+
+.cont-pos{
+
+    
+
+}
