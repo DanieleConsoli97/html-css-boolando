@@ -1,7 +1,5 @@
 .flex{
     display: flex;
-    gap: 5px;
-    align-items: center;
 }
 
 
@@ -33,10 +31,23 @@ color: white;
 header picture img{
     width: 140px;
     height: auto;
+
+}
+header div.flex{
+
+    gap: 5px;
+    align-items: center;
 }
 .icon-nav{
 
     width: 15px;
     height: auto;
    
+}
+
+.container-80{
+    width: 80%;
+    margin:0 auto;
+    background-color:red;
+
 }
