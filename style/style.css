@@ -46,8 +46,26 @@ header div.flex{
 }
 
 .container-80{
+    
     width: 80%;
     margin:0 auto;
-    background-color:red;
 
 }
+.img-main{
+
+   
+     height: 500px;
+     width: auto;
+}
+.fl-bas-calc{
+    flex-basis: calc(100%/3);
+}
+main{
+
+    margin-top: 50px;
+}
+
+#mar-bot{
+
+    margin-bottom: 30px;
+    }
