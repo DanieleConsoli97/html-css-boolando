@@ -66,10 +66,6 @@ header div.flex{
  
 
 }
-/* #mar-bot{
-
-    margin-bottom: 30px;
-    } */
 
 .icon-svg{
 
@@ -81,8 +77,38 @@ header div.flex{
     padding: 10px;  
 }    
 
+
 .cont-pos{
 
     position: relative;
 
+}
+.discount{
+
+    position: absolute;
+    top: 90%;
+    background-color: red;
+    color: white;
+    padding-block: 5px;
+    padding-inline: 10px;
+
+}
+.sost{
+    position: absolute;
+    top: 90%;
+    left: 70px;
+    background-color:green;
+    color: white;
+    padding-block: 5px;
+    padding-inline: 10px;
+}
+
+.sost1{
+    position: absolute;
+    top: 90%;
+    
+    background-color:green;
+    color: white;
+    padding-block: 5px;
+    padding-inline: 10px;
 }
